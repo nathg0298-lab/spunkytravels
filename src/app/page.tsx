@@ -8,7 +8,7 @@ import Services from "@/components/Services";
 import HowItWorks from "@/components/HowItWorks";
 import Stats from "@/components/Stats";
 import Reviews from "@/components/Reviews";
-import ContactForm from "@/components/ContactForm";
+// import ContactForm from "@/components/ContactForm";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
@@ -26,9 +26,9 @@ export default function Home() {
       <WaveDivider fill="var(--navy)" variant={2} />
       <HowItWorks />
       <WaveDivider fill="var(--navy)" variant={2} flip />
-      <Stats />
+      {/* <Stats /> */}
       <Reviews />
-      <ContactForm />
+      {/* <ContactForm /> */}
       <CTA />
       <Footer />
     </>

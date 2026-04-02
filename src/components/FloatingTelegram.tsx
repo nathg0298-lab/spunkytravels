@@ -7,12 +7,12 @@ export default function FloatingTelegram() {
 
   return (
     <a
-      href="https://t.me/spunkytravels"
+      href="https://t.me/spunkytravel"
       target="_blank"
       rel="noopener noreferrer"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      aria-label="Message us on Telegram"
+      aria-label="Join now on Telegram"
       style={{
         position: "fixed",
         bottom: 28,

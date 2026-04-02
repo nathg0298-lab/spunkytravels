@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Spunky Travel Market",
     description:
-      "Save up to 45% on flights, hotels, food, entertainment & more.",
+      "Save up to 50% on flights, hotels, food, entertainment & more.",
     images: ["/spunky-mascot.jpg"],
   },
 };

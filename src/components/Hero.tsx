@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { PlaneIcon, HotelIcon, FoodIcon, MovieIcon } from "./Icons";
+import TelegramCTA from "./TelegramCTA";
 
 export default function Hero() {
   return (
@@ -28,23 +29,23 @@ export default function Hero() {
         {/* Text */}
         <div className="reveal hero-text-col">
           <h1 className="font-display" style={{ fontWeight: 800, fontSize: "clamp(2.6rem, 5vw, 4.4rem)", lineHeight: 1.1, color: "var(--navy)", marginBottom: 20 }}>
-            Explore More.
+            Get Discounts
             <br />
-            Spend{" "}
+            Up to{" "}
             <span style={{ color: "var(--pink)", position: "relative", display: "inline-block" }}>
-              Way Less
+              50% Off
               <span style={{ content: "", position: "absolute", bottom: 2, left: -4, right: -4, height: 14, background: "var(--gold)", opacity: 0.35, borderRadius: 4, zIndex: -1, transform: "rotate(-1deg)", display: "block" }} />
             </span>
             .
             <br />
-            Live <span style={{ color: "var(--lime)" }}>Spunky</span>.
+            Flights, Hotels,<span style={{ color: "var(--lime)" }}> Food & More</span>.
           </h1>
           <p style={{ fontSize: "1.15rem", color: "#555", lineHeight: 1.7, maxWidth: 500, marginBottom: 36, fontWeight: 600 }}>
-            Massive discounts on flights, hotels, food, entertainment, home improvement, bill payments, and more — all from one playful marketplace.
+            Spunky Travels shares exclusive Telegram deals with savings of up to 50% across travel, dining, entertainment, bill payments, and more. Join now to get the latest offers.
           </p>
           <div style={{ display: "flex", gap: 16, flexWrap: "wrap", alignItems: "center" }}>
-            <a
-              href="https://t.me/spunkytravels"
+            {/* <a
+              href="https://t.me/spunkytravel"
               target="_blank"
               rel="noopener noreferrer"
               className="font-display"
@@ -65,8 +66,9 @@ export default function Hero() {
               }}
             >
               <svg width="22" height="22" viewBox="0 0 24 24" fill="#fff"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
-              Message Us on Telegram
-            </a>
+              Join now on Telegram
+            </a> */}
+            <TelegramCTA size="large" label="Join now on Telegram →" />
             <a
               href="#services"
               className="font-display"
@@ -107,10 +109,10 @@ export default function Hero() {
           />
 
           {/* Floating stickers */}
-          <Sticker pos={{ top: "8%", left: "-10%" }} delay="0s" icon={<PlaneIcon size={22} stroke="var(--sky)" />} label="Flights" save="Save 45%" />
-          <Sticker pos={{ top: "5%", right: "-5%" }} delay="1s" icon={<HotelIcon size={22} stroke="var(--pink)" />} label="Hotels" save="Save 40%" />
-          <Sticker pos={{ bottom: "25%", left: "-15%" }} delay="0.5s" icon={<FoodIcon size={22} stroke="var(--gold)" />} label="Food" save="Save 25%" />
-          <Sticker pos={{ bottom: "10%", right: "-8%" }} delay="2s" icon={<MovieIcon size={22} stroke="var(--lime)" />} label="Movies" save="Save 30%" />
+          <Sticker pos={{ top: "8%", left: "-10%" }} delay="0s" icon={<PlaneIcon size={22} stroke="var(--sky)" />} label="Flights" save="Save Up To 50%" />
+          <Sticker pos={{ top: "5%", right: "-5%" }} delay="1s" icon={<HotelIcon size={22} stroke="var(--pink)" />} label="Hotels" save="Save Up To 50%" />
+          <Sticker pos={{ bottom: "25%", left: "-15%" }} delay="0.5s" icon={<FoodIcon size={22} stroke="var(--gold)" />} label="Food" save="Save Up To 50%" />
+          <Sticker pos={{ bottom: "10%", right: "-8%" }} delay="2s" icon={<MovieIcon size={22} stroke="var(--lime)" />} label="Movies" save="Save Up To 50%" />
         </div>
       </div>
 

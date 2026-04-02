@@ -1,4 +1,4 @@
-export const TELEGRAM_URL = "https://t.me/spunkytravels";
+export const TELEGRAM_URL = "https://t.me/spunkytravel";
 
 interface Service {
   id: string;
@@ -14,8 +14,8 @@ export const SERVICES: Service[] = [
   {
     id: "flights",
     name: "Flights",
-    desc: "Domestic and international flights at prices you won't believe. Fly more, pay dramatically less. Every. Single. Trip.",
-    discount: "Up to 45% Off",
+    desc: "Save on domestic and international flights with deals of up to 50% off.",
+    discount: "Up to 50% Off",
     icon: "plane",
     color: "sky",
     big: true,
@@ -23,24 +23,24 @@ export const SERVICES: Service[] = [
   {
     id: "hotels",
     name: "Hotels",
-    desc: "Premium stays at wildly discounted rates.",
-    discount: "Up to 40% Off",
+    desc: "Book hotel stays for less with discounts of up to 50% off.",
+    discount: "Up to 50% Off",
     icon: "hotel",
     color: "pink",
   },
   {
     id: "airbnb",
     name: "Airbnb",
-    desc: "Unique stays at a fraction of the cost.",
-    discount: "Up to 30% Off",
+    desc: "Unlock lower prices on unique stays and vacation bookings.",
+    discount: "Up to 50% Off",
     icon: "home",
     color: "gold",
   },
   {
     id: "food",
     name: "Food & Dining",
-    desc: "Restaurant deals, delivery credits, grocery savings.",
-    discount: "Up to 25% Off",
+    desc: "Get deals on restaurants, food delivery, and dining offers.",
+    discount: "Up to 50% Off",
     icon: "food",
     color: "lime",
   },
@@ -48,7 +48,7 @@ export const SERVICES: Service[] = [
     id: "expedia",
     name: "Expedia",
     desc: "Bundled travel packages with exclusive codes.",
-    discount: "Up to 35% Off",
+    discount: "Up to 50% Off",
     icon: "globe",
     color: "sky",
   },
@@ -56,7 +56,7 @@ export const SERVICES: Service[] = [
     id: "movies",
     name: "Movies",
     desc: "Discounted tickets for blockbusters and indie films.",
-    discount: "Up to 30% Off",
+    discount: "Up to 50% Off",
     icon: "movie",
     color: "pink",
   },
@@ -64,7 +64,7 @@ export const SERVICES: Service[] = [
     id: "car-rentals",
     name: "Car Rentals",
     desc: "Hit the road for less with top companies.",
-    discount: "Up to 28% Off",
+    discount: "Up to 50% Off",
     icon: "car",
     color: "gold",
   },
@@ -72,7 +72,7 @@ export const SERVICES: Service[] = [
     id: "bills",
     name: "Bill Payments",
     desc: "Pay your utility bills, subscriptions, and services at a discount. Yes — even your phone bill. It all adds up to hundreds saved monthly.",
-    discount: "Up to 15% Off",
+    discount: "Up to 50% Off",
     icon: "card",
     color: "lime",
     big: true,
@@ -81,7 +81,7 @@ export const SERVICES: Service[] = [
     id: "lowes",
     name: "Lowe's",
     desc: "Home improvement at prices that make sense.",
-    discount: "Up to 20% Off",
+    discount: "Up to 50% Off",
     icon: "leaf",
     color: "sky",
   },
@@ -89,7 +89,7 @@ export const SERVICES: Service[] = [
     id: "academy",
     name: "Academy Sports",
     desc: "Gear up for less on sporting goods.",
-    discount: "Up to 22% Off",
+    discount: "Up to 50% Off",
     icon: "sports",
     color: "lime",
   },
@@ -97,7 +97,7 @@ export const SERVICES: Service[] = [
     id: "experiences",
     name: "Experiences & Tickets",
     desc: "Concerts, theme parks, events — all discounted.",
-    discount: "Up to 35% Off",
+    discount: "Up to 50% Off",
     icon: "ticket",
     color: "gold",
   },
@@ -169,10 +169,10 @@ export const MARQUEE_ITEMS = [
 ];
 
 export const STATS = [
-  { value: "$12M+", label: "Saved by Members" },
-  { value: "250K+", label: "Happy Spunky Users" },
-  { value: "500+", label: "Brand Partners" },
-  { value: "4.9 ★", label: "Average Rating" },
+  { value: "$100K+", label: "Saved by Members" },
+  { value: "2K+", label: "Happy Spunky Users" },
+  { value: "50% OFF", label: "Average Discounts" },
+  // { value: "500+", label: "Brand Partners" },
 ];
 
 export const COLOR_MAP: Record<string, { bg: string; stroke: string; tagBg: string; tagText: string }> = {

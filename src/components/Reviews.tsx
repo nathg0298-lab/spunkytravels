@@ -11,7 +11,7 @@ export default function Reviews() {
   };
 
   return (
-    <section id="reviews" style={{ padding: "90px 60px", maxWidth: 1340, margin: "0 auto" }}>
+    <section id="reviews" style={{ padding: "90px 60px", maxWidth: 1340, margin: "0" }}>
       <div className="reveal">
         <div
           className="font-display"
