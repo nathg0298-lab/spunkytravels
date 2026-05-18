@@ -127,7 +127,14 @@ export default function Footer() {
             &copy; 2026 Spunky Travel Market. All rights reserved.
           </p>
           <p style={{ color: "rgba(255,255,255,0.25)", fontSize: "0.82rem", fontWeight: 600 }}>
-            Privacy Policy · Terms of Service
+            <Link
+              href="/privacy-policy"
+              style={{ color: "rgba(255,255,255,0.25)", textDecoration: "none" }}
+            >
+              Privacy Policy
+            </Link>
+            {" · "}
+            Terms of Service
           </p>
         </div>
       </div>
